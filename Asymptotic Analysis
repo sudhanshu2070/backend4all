@@ -1,4 +1,12 @@
 Asymptotic Analysis is defined as the big idea that handles the above issues in analyzing algorithms. In Asymptotic Analysis, we evaluate the performance of an algorithm in terms of input size (we don’t measure the actual running time). We calculate, how the time (or space) taken by an algorithm increases with the input size. 
+
 Big O notation (O): This notation provides an upper bound on the growth rate of an algorithm’s running time or space usage. It represents the worst-case scenario.
 Omega notation: This notation provides a lower bound on the growth rate of an algorithm’s running time or space usage. It represents the best-case scenario, i.e., the minimum amount of time or space an algorithm may need to solve a problem. 
 Theta notation: This notation provides both an upper and lower bound on the growth rate of an algorithm’s running time or space usage. It represents the average-case scenario, i.e., the amount of time or space an algorithm typically needs to solve a problem.
+
+
+Order of Growth(The growth of a function):
+- The order of an algorithm is essentially a measure of its efficiency, specifically in the worst-case scenario.
+Example : f(n) = 17n⁴ + 200n³ + 10n + log(n) + 30
+ This is of order n⁴, i.e. O(n⁴)
+- The idea is that, as n gets very large (or, in our sorting example, our array of numbers gets very long), the highest polynomial degree will be significant enough to render the effects of the other components essentially negligible (ignorable).
