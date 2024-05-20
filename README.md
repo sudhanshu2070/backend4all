@@ -1,2 +1,2 @@
 # backend4all
-Data handling from the Oracle
+Handling all the Get and Post from the Oracle
